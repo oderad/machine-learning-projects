@@ -2,11 +2,11 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-car = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\car_p.csv')
+car = pd.read_csv(r'C:\Users\car_p.csv')
 
-stu = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\study_p.csv')
+stu = pd.read_csv(r'C:\Users\study_p.csv')
 
-hou = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\houses.csv')
+hou = pd.read_csv(r'C:\Users\houses.csv')
 
 # Check data
 print(car.info())
