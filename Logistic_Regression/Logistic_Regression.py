@@ -1,11 +1,11 @@
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 
-scores = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\LOGISTIC_REGRESSION\exam_scores.csv')
-churn = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\LOGISTIC_REGRESSION\cust_churn.csv')
-loan = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\LOGISTIC_REGRESSION\loan_approval.csv')
-spam = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\LOGISTIC_REGRESSION\spam_detect.csv')
-weight = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\LOGISTIC_REGRESSION\weight_loss.csv')
+scores = pd.read_csv(r'C:\Users\exam_scores.csv')
+churn = pd.read_csv(r'C:\Users\cust_churn.csv')
+loan = pd.read_csv(r'C:\Users\loan_approval.csv')
+spam = pd.read_csv(r'C:\Users\spam_detect.csv')
+weight = pd.read_csv(r'C:\Users\weight_loss.csv')
 
 
 # Scores
