@@ -1,9 +1,9 @@
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 
-tennis = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\DECISION_TREE\tennis.csv')
-scores = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\DECISION_TREE\scores.csv')
-ice_cream = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\DECISION_TREE\ice_cream.csv')
+tennis = pd.read_csv(r'C:\Users\tennis.csv')
+scores = pd.read_csv(r'C:\Users\scores.csv')
+ice_cream = pd.read_csv(r'C:\Users\ice_cream.csv')
 
 
 # Tennis predictions
