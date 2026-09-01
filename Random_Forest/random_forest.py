@@ -1,9 +1,9 @@
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier 
 
-scores = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\Random_Forest\scores.csv')
-loan = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\Random_Forest\loan.csv')
-fruit = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\Random_Forest\fruit.csv')
+scores = pd.read_csv(r'C:\Users\scores.csv')
+loan = pd.read_csv(r'C:\Users\loan.csv')
+fruit = pd.read_csv(r'C:\Users\fruit.csv')
 
 # Student scores
 scores['Pass_Measure'] = scores['Pass'].str.replace({'Yes':'1','No':'0'})
