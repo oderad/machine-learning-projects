@@ -1,0 +1,11 @@
+Weight,ColorCode,Sweetness,Size,Type
+150,1,8,6,Apple
+170,1,7,7,Apple
+130,2,9,5,Orange
+140,2,8,5,Orange
+180,3,6,8,Banana
+160,3,7,7,Banana
+155,1,8,6,Apple
+125,2,9,5,Orange
+190,3,6,8,Banana
+145,1,7,6,Apple
