@@ -1,9 +1,9 @@
 import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
 
-student = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\K_Nearest_Neighbors\student.csv')
-height = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\K_Nearest_Neighbors\height.csv')
-exam = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\K_Nearest_Neighbors\exam.csv')
+student = pd.read_csv(r'C:\Users\student.csv')
+height = pd.read_csv(r'C:\Users\height.csv')
+exam = pd.read_csv(r'C:\Users\omard\exam.csv')
 
 # Students
 student['Result_Measure'] = student['Result'].str.replace({'Pass':'1','Fail':'0'})
