@@ -1,0 +1,15 @@
+Study_Hours,Sleep_Hours,Previous_Score,Result
+1,5,45,Fail
+2,5,48,Fail
+2,6,50,Fail
+3,6,52,Fail
+3,7,55,Fail
+4,7,60,Pass
+4,8,62,Pass
+5,7,65,Pass
+5,8,68,Pass
+6,8,72,Pass
+6,9,75,Pass
+7,8,78,Pass
+7,9,82,Pass
+8,8,85,Pass
