@@ -1,10 +1,10 @@
 import pandas as pd
 from sklearn.cluster import KMeans
 
-spend = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\K_Means\customer_spending.csv')
-performance = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\K_Means\student_performance.csv')
-customers = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\K_Means\mall.csv')
-medical = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\K_Means\medical.csv')
+spend = pd.read_csv(r'C:\Users\customer_spending.csv')
+performance = pd.read_csv(r'C:\Users\student_performance.csv')
+customers = pd.read_csv(r'C:\Users\mall.csv')
+medical = pd.read_csv(r'C:\Users\medical.csv')
 
 # Customer spending cluster
 xs = spend[['annual_income','spending_score']]
