@@ -1,8 +1,8 @@
 import pandas as pd
 from sklearn.svm import SVC
 
-emp = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\SVM\emp_prm.csv')
-std = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\SVM\student.csv')
+emp = pd.read_csv(r'C:\Users\emp_prm.csv')
+std = pd.read_csv(r'C:\Users\student.csv')
 
 # Employees promotion prediction
 xe = emp[['age','years_experience','performance_score','training_hours','projects_completed']]
