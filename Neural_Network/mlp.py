@@ -1,8 +1,8 @@
 import pandas as pd
 from sklearn.neural_network import MLPClassifier
 
-cust = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\Neural_Network\cust.csv')
-heart = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\Neural_Network\heart.csv')
+cust = pd.read_csv(r'C:\Users\cust.csv')
+heart = pd.read_csv(r'C:\Users\heart.csv')
 
 # Customer cluster classification
 xc = cust[['age','annual_income','purchases_per_year','avg_purchase','website_visits','discount_usage']]
