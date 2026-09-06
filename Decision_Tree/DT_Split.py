@@ -3,7 +3,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-scr = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\Decision_Tree\scores.csv')
+scr = pd.read_csv(r'C:\Users\scores.csv')
 
 # Student Test scores
 scr['Pass_Measure'] = scr['Pass'].str.replace({'Yes':'1','No':'0'})
