@@ -3,7 +3,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv(r'C:\Users\omard\Desktop\Educational__Information\Data_Science_Projects\Data_Analysis\Python\Machine_Learning\Decision_Tree\student_pass.csv')
+data = pd.read_csv(r'C:\Users\student_pass.csv')
 
 x = data[['study_hours','attendance_percent','previous_score','sleep_hours','assignments_completed']]
 y = data['passed']
